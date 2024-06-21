@@ -99,3 +99,105 @@ courses Style start
 /* -------------------------
 Mobile Device Only 
 ----------------------------*/
+
+@media only screen and (max-width:688px) {
+    
+    .container{
+        width: 100%;
+    }
+
+    .playeres-title{
+        text-align: center;
+    }
+    .player{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .player-info{
+        flex-direction: column;
+        align-items: center;
+    }
+    .blogs h1{
+        text-align: center;
+    }
+    .blog{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .blog-info{
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .blog-info h3{
+        font-size: 15px;
+    }
+    .courses h3{
+        text-align: center;
+    }
+    .course{
+        grid-template-columns: repeat(1, 1fr);
+        
+        width: 100%;
+    }
+    .course-info{
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+    }
+    .course-info h3{
+        font-size: 15px;
+    }
+   
+}
+
+@media only screen and (max-width:992px) and (min-width:688px) {
+    .container{
+        width: 100%;
+    }
+
+    .playeres-title{
+        text-align: center;
+    }
+    .player{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .player-info{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .blogs h1{
+        text-align: center;
+    }
+    .blog{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .blog-info{
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .blog-info h3{
+        font-size: 15px;
+    }
+
+    .courses h1{
+        text-align: center;
+    }
+    .course{
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+    }
+    .course-info{
+        flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .course-info h3{
+        font-size: 15px;
+    }
+
+}
